@@ -1,0 +1,40 @@
+dependencies:
+  '@rush-temp/A': 'file:projects/A.tgz'
+  '@rush-temp/B': 'file:projects/B.tgz'
+  '@rush-temp/C': 'file:projects/C.tgz'
+  '@rush-temp/D': 'file:projects/D.tgz'
+lockfileVersion: 5.1
+packages:
+  'file:projects/A.tgz':
+    dev: false
+    name: '@rush-temp/A'
+    resolution:
+      integrity: sha512-PJ5M7DeycE1fu9zX3THUDVt1xyJvy7xuXzEvlvabQCugZNiNm68weOhEiyQFsGUbcf0fLHXvFyl0OE6vxb/OSA==
+      tarball: 'file:projects/A.tgz'
+    version: 0.0.0
+  'file:projects/B.tgz':
+    dev: false
+    name: '@rush-temp/B'
+    resolution:
+      integrity: sha512-kbPGQAbQ9Rkr8aQUGwotrARjc0W21wpJl/e2GvREj4DQMxPwLFcYJyr6VZKgMVTPRImL2kMfUbdaGvQmh0OS5g==
+      tarball: 'file:projects/B.tgz'
+    version: 0.0.0
+  'file:projects/C.tgz':
+    dev: false
+    name: '@rush-temp/C'
+    resolution:
+      integrity: sha512-zoCY9aKkN8MxMK0cg8La/60c/+TaLtf1vwaJ3CKVRKroh0Xu9xzAIrF6niJOZa4ShHZElInT40ZgrHbLIZ0mIg==
+      tarball: 'file:projects/C.tgz'
+    version: 0.0.0
+  'file:projects/D.tgz':
+    dev: false
+    name: '@rush-temp/D'
+    resolution:
+      integrity: sha512-3qGv0X9uG/sbUXFjk5v7GiwVok6iRkBsWsY6k62Kjb/rkrffcKDYGTtkCYt18Zzvuf3zYWmPFhgrU4MS5H5eYQ==
+      tarball: 'file:projects/D.tgz'
+    version: 0.0.0
+specifiers:
+  '@rush-temp/A': 'file:./projects/A.tgz'
+  '@rush-temp/B': 'file:./projects/B.tgz'
+  '@rush-temp/C': 'file:./projects/C.tgz'
+  '@rush-temp/D': 'file:./projects/D.tgz'

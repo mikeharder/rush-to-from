@@ -1,0 +1,14 @@
+{
+  "name": "B",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo B"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "A": "^1.0.0"
+  }
+}
